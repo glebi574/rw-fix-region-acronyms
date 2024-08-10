@@ -108,7 +108,7 @@ void fix_folders(std::filesystem::path* input_path, std::filesystem::path* outpu
 
 int main() {
   std::string input_path, output_path = "output";
-  std::cout << "Input folder for input(or drag and drop): ";
+  std::cout << "Input folder with your region(\"world\" folder): ";
   std::getline(std::cin, input_path);
   std::cout << "Both of next acronyms should be in upper case.\n";
   std::cout << "Input old acronym: ";
